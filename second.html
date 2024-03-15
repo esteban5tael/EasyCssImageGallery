@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <title>Another One</title>
+        <style>
+            body {
+                background-color: black;
+                text-align: center;
+            }
+
+            .div img {
+                filter: saturate(0%);
+                width: 10%;
+                border: 2px solid whitesmoke;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 12px;
+                transition: all ease 0.4s;
+                cursor: pointer;
+            }
+
+            .div img:hover {
+                filter: saturate(100%);
+                width: 50%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="div">
+            <img src="./assets/img/img01.jpg" alt="" />
+            <img src="./assets/img/img02.jpg" alt="" />
+            <img src="./assets/img/img03.jpg" alt="" />
+            <img src="./assets/img/img04.jpg" alt="" />
+            <img src="./assets/img/img05.jpg" alt="" />
+        </div>
+    </body>
+</html>
